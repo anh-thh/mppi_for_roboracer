@@ -1,6 +1,6 @@
 # MPPI for RoboRacer (F1/10 Autonomous Racing)
 This repository contains an implementation of **Model Predictive Path Integral (MPPI) control**
-for F1/10 platform, developed for the **final race** of
+for F1/10 platform, developed for the final race of
 **ESE 6150 – F1/10 Autonomous Racing**.
 
 **Note:** To enable JAX to run on a GPU, you may need to uncomment line 23 in [mppi_node.py](mppi/scripts/mppi_node.py).
