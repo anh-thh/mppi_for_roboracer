@@ -8,9 +8,3 @@ The code repository for the final race project of ESE 6150: F1/10 Autonomous Rac
 - Next, run `process_waypoint.py` in [mppi/scripts/waypoints](mppi/scripts/waypoints). This program converts the raw waypoint file into a CSV file formatted for use with MPPI.
 - Update the `wpt_path` in [mppi/scripts/config.yaml](mppi/scripts/config.yaml) and [mppi/scripts/waypoints/map_info.txt](mppi/scripts/waypoints/map_info.txt) to point to the waypoint file you just generated.
 
-## To-Do:
-- [x] Try run MPPI on other map (slam_levine, available [here](https://github.com/f1tenth-class/model-predictive-control-team9/tree/main/mpc/maps)).
-- [ ] Integrate waypoint drawing tool to this repo. 
-- [ ] Obstacle advoidance.
-- [ ] Setup MPPI on F1tenth car.
-- [ ] Finetune for the race.
